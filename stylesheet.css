@@ -24,7 +24,7 @@ body {
 }
 
 .navigation li {
-  color: #666666;
+  color: #6666;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -58,6 +58,24 @@ body {
   margin: 0 auto;
   width: 90%;
 }
+.content-box1 {
+
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 600px;
+  width: 80%;
+}
+
+.content-header1 {
+  background-image: url("http://imgur.com/swmt3qY.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -50px;
+  height: 320px;
+}
+
 
 h1 {
   background: #000000;
@@ -112,7 +130,7 @@ p {
 }
 
 .content-box li {
-  background-color: #05A8AA;
+  background-color: #000000;
   display: inline-block;
   list-style: none;
   margin-bottom: 3px;
@@ -135,5 +153,8 @@ p {
 .btn:hover {
   background-color: #05A8AA;
 
+  color: #FFF;
+}
+.content-body li {
   color: #FFF;
 }
