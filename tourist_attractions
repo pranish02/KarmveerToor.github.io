@@ -15,6 +15,7 @@
     <h2>Tourist Attractions</h2>
     <ul>
       <li>N Seoul Tower</li>
+      <img src="https://asiatourist.org/wp-content/uploads/2016/10/N-Seoul-Tower.jpg" alt="N Seoul Tower">
       <li>Gyeongbokgung Palace</li>
       <li>Royal Guard Changing Ceremony</li>
       <li>Myeongdong</li>
@@ -45,6 +46,10 @@
 body {
   background-color: black;
   color: white;
+}
+img{
+  height: 250px;
+  width: 250px;
 }
   </style>
 
