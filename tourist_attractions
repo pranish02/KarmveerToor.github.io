@@ -4,6 +4,37 @@
 
   <head>
     <title>Seoul</title>
+    <style>
+      hr {
+        height: 4px;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      ul {
+        list-style-type: square;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+      }
+
+      body {
+        background-color: black;
+        color: white;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -15,42 +46,27 @@
     <h2>Tourist Attractions</h2>
     <ul>
       <li>N Seoul Tower</li>
-      <img src="https://asiatourist.org/wp-content/uploads/2016/10/N-Seoul-Tower.jpg" alt="N Seoul Tower">
+      <p>
+        The N Seoul Tower is a communication and observation tower located on Namsan Mountain in central Seoul, South Korea. At 236m, it marks the second highest point in Seoul.
+      </p>
       <li>Gyeongbokgung Palace</li>
+      <p>
+        Gyeongbokgung, also known as Gyeongbokgung Palace or Gyeongbok Palace, was the main royal palace of the Joseon dynasty. Built in 1395, it is located in northern Seoul, South Korea.
+      </p>
       <li>Royal Guard Changing Ceremony</li>
+      <p>
+        In ancient times, the royal guards of Joseon Dynasty performed the given task by guarding the Gwanghwamun Gate, the entrance of Gyeongbokgung Palace where the king ruled the country. Since 1469, the ceremony has taken place and its record has been consulted
+        for the present reenactment ceremony.
+      </p>
       <li>Myeongdong</li>
-      <Li>Gwangjang Market</Li>
+      <p>
+        Bustling Myeong-dong is a shopping area packed with international fashion brands, luxury department stores and homegrown cosmetics shops.
+      </p>
+      <li>Gwangjang Market</li>
+      <p>
+        Gwangjang Market, previously Dongdaemun Market, is a traditional street market in Jongno-gu, Seoul, South Korea.
+      </p>
     </ul>
   </body>
-  <style>
-  hr {
-    height: 4px;
-    color: white;
-  }
-    h1 {
-      text-align: center;
-      font-size: 50px;
-   
-    }
-
-    h2 {
-      font-size: 25px;
-
-    }
-
-    ul {
-    
-      list-style-type: square;
-      font-family: 'Josefin Sans', sans-serif;
-    }
-body {
-  background-color: black;
-  color: white;
-}
-img{
-  height: 250px;
-  width: 250px;
-}
-  </style>
 
 </html>
